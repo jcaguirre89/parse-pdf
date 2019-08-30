@@ -18,9 +18,9 @@ def main():
     filepath = options.filepath
     language = options.language
     outpath = options.outpath
-
+    print('Getting tokens...')
     tokens = pdf_tokens(filepath, language)
-    print(tokens)
+    print(f'Writing to {outpath}')
     with open(outpath, 'w') as outfile:
         for item in tokens:
             outfile.write(f'{item}\n')
