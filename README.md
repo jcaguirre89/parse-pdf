@@ -12,5 +12,5 @@ python parse.py --file smp.pdf
 4. Download nltk resources with `python download_nltk_resources.py`
 3. Run the function with `python parse.py --file /path/to/file`
 4. Optional arguments: 
-    - `--language`: File language, defaults to 'english'
+    - `--language`: File language, defaults to `english`
     - `--outfile`: Output file name, defaults to `parsed.txt`
